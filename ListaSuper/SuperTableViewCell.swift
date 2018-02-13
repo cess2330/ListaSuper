@@ -10,6 +10,8 @@ import UIKit
 
 class SuperTableViewCell: UITableViewCell {
 
+    @IBOutlet var nombrearticulo: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

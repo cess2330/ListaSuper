@@ -13,6 +13,9 @@
 		145B45592032419300CE718D /* ListaSuper.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 145B45572032419300CE718D /* ListaSuper.xcdatamodeld */; };
 		145B455B2032419300CE718D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 145B455A2032419300CE718D /* Assets.xcassets */; };
 		145B455E2032419300CE718D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 145B455C2032419300CE718D /* LaunchScreen.storyboard */; };
+		145B45682032456F00CE718D /* SuperTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145B45672032456F00CE718D /* SuperTableViewCell.swift */; };
+		145B456D20327B3200CE718D /* YTButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145B456C20327B3200CE718D /* YTButtons.swift */; };
+		145B456F2032B87200CE718D /* Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 145B456E2032B87200CE718D /* Logo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		145B455A2032419300CE718D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		145B455D2032419300CE718D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		145B455F2032419300CE718D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		145B45672032456F00CE718D /* SuperTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperTableViewCell.swift; sourceTree = "<group>"; };
+		145B456C20327B3200CE718D /* YTButtons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YTButtons.swift; sourceTree = "<group>"; };
+		145B456E2032B87200CE718D /* Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Logo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +62,13 @@
 		145B454F2032419300CE718D /* ListaSuper */ = {
 			isa = PBXGroup;
 			children = (
+				145B45672032456F00CE718D /* SuperTableViewCell.swift */,
 				145B45502032419300CE718D /* AppDelegate.swift */,
 				145B45522032419300CE718D /* ViewController.swift */,
+				145B456C20327B3200CE718D /* YTButtons.swift */,
 				145B45542032419300CE718D /* Main.storyboard */,
 				145B455A2032419300CE718D /* Assets.xcassets */,
+				145B456E2032B87200CE718D /* Logo.png */,
 				145B455C2032419300CE718D /* LaunchScreen.storyboard */,
 				145B455F2032419300CE718D /* Info.plist */,
 				145B45572032419300CE718D /* ListaSuper.xcdatamodeld */,
@@ -126,6 +135,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				145B456F2032B87200CE718D /* Logo.png in Resources */,
 				145B455E2032419300CE718D /* LaunchScreen.storyboard in Resources */,
 				145B455B2032419300CE718D /* Assets.xcassets in Resources */,
 				145B45562032419300CE718D /* Main.storyboard in Resources */,
@@ -140,6 +150,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				145B45532032419300CE718D /* ViewController.swift in Sources */,
+				145B45682032456F00CE718D /* SuperTableViewCell.swift in Sources */,
+				145B456D20327B3200CE718D /* YTButtons.swift in Sources */,
 				145B45512032419300CE718D /* AppDelegate.swift in Sources */,
 				145B45592032419300CE718D /* ListaSuper.xcdatamodeld in Sources */,
 			);
@@ -281,6 +293,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HZJFM26LE7;
 				INFOPLIST_FILE = ListaSuper/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Roca.ListaSuper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -296,6 +309,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HZJFM26LE7;
 				INFOPLIST_FILE = ListaSuper/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Roca.ListaSuper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
